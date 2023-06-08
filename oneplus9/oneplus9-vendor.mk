@@ -22,6 +22,126 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
     vendor/oneplus/oneplus9/proprietary/odm/overlay/prj_11/odm/etc/odm_feature_list:$(TARGET_COPY_OUT_ODM)/overlay/prj_11/odm/etc/odm_feature_list \
     vendor/oneplus/oneplus9/proprietary/odm/etc/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/100ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/100ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/120ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/120ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/140ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/140ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/160ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/160ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/180ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/180ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/200ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/200ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/20ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/20ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/220ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/220ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/240ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/240ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/260ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/260ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/280ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/280ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/300ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/300ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/320ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/320ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/340ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/340ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/360ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/360ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/380ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/380ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/400ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/400ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/40ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/40ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/420ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/420ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/440ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/440ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/460ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/460ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/480ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/480ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/500ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/500ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/60ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/60ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/80ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/80ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/AT500ms_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/AT500ms_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/VZW_Alrwave_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/VZW_Alrwave_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/Version_Alert_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/Version_Alert_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Alarm_clock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Alarm_clock_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Beep_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Beep_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Breeze_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Breeze_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Dawn_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Dawn_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Dream_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Dream_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Fluttering_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Fluttering_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Flyer_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Flyer_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Interesting_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Interesting_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Leisurely_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Leisurely_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Memory_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Memory_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Relieved_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Relieved_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Ripple_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Ripple_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Slowly_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Slowly_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Stars_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Stars_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Surging_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Surging_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_The_wind_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_The_wind_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_Walking_in_the_rain_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_Walking_in_the_rain_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_spring_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_spring_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/alarm_tactfully_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/alarm_tactfully_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_haptic_166.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_166.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_haptic_168.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_168.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_haptic_172.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_172.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_haptic_174.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_174.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_rtp.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_rtp_lighthouse.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_rtp_lighthouse.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/aw8697_rtp_silk.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_rtp_silk.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/awinic_haptic_gun_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_gun_params.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/awinic_haptic_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_params.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Allay_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Allay_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Allusion_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Allusion_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Amiable_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Amiable_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Blare_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Blare_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Blissful_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Blissful_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Brisk_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Brisk_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Bubble_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Bubble_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Cheerful_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Cheerful_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Clear_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Clear_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Comely_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Comely_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Cozy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Cozy_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Ding_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Ding_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Effervesce_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Effervesce_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Elegant_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Elegant_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Free_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Free_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Hallucination_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Hallucination_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Inbound_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Inbound_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Light_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Light_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Meet_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Meet_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Naivety_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Naivety_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Quickly_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Quickly_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Rhythm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Rhythm_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Surprise_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Surprise_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/notif_Twinkle_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Twinkle_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ring_Amenity_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ring_Amenity_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ring_Bounce_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ring_Bounce_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ring_Calm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ring_Calm_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ring_Lazy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ring_Lazy_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ring_Mystical_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ring_Mystical_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ring_Whirl_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ring_Whirl_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Alacrity_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Alacrity_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Blues_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Blues_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Cloud_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Cloud_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Cyclotron_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Cyclotron_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Distinct_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Distinct_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Dynamic_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Dynamic_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Eager.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Eager.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Ebullition.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Ebullition.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Echo_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Echo_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Expect_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Expect_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Fanatical_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Fanatical_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Friendship.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Friendship.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Funky_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Funky_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Guitar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Guitar_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Harping_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Harping_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Highlight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Highlight_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Idyl_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Idyl_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Innocence_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Innocence_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Jazz_life_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Jazz_life_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Journey_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Journey_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Joyous_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Joyous_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Marimba_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Marimba_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Old_telephone_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Old_telephone_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_OnePlus_tune_rhythm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_OnePlus_tune_rhythm_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Oneplus_tune_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Oneplus_tune_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Optimistic_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Optimistic_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Piano_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Piano_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Rhythm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Rhythm_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/ringtone_Sun_glittering_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/ringtone_Sun_glittering_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/shuntai24k_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/shuntai24k_rtp.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/t-jingle_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/t-jingle_RTP.bin \
+    vendor/oneplus/oneplus9/proprietary/odm/firmware/wentai24k_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/wentai24k_rtp.bin \
     vendor/oneplus/oneplus9/proprietary/odm/lib64/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx481.so \
     vendor/oneplus/oneplus9/proprietary/odm/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.s5k3m5.so \
     vendor/oneplus/oneplus9/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
@@ -793,32 +913,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/oneplus/oneplus9/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/100ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/100ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/120ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/120ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/140ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/140ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/160ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/160ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/180ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/180ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/200ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/200ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/20ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/20ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/220ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/220ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/240ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/240ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/260ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/260ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/280ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/280ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/300ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/300ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/320ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/320ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/340ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/340ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/360ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/360ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/380ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/380ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/400ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/400ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/40ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/40ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/420ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/420ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/440ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/440ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/460ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/460ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/480ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/480ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/500ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/500ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/60ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/60ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/80ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/80ms_RTP.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/AT500ms_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AT500ms_RTP.bin \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
@@ -827,13 +921,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/a660_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b02 \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/aw8697_haptic_166.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_166.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/aw8697_haptic_168.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_168.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_170.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/aw8697_haptic_172.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_172.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/aw8697_haptic_174.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_174.bin \
-    vendor/oneplus/oneplus9/proprietary/vendor/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp.bin \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
     vendor/oneplus/oneplus9/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
